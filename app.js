@@ -5,9 +5,9 @@ const divide = (a,b) => a/b;
 
 let result = 0;
 
-const operate = (num1, num2, operation) => {
+const operate = (num1, num2, operator) => {
 
-    switch (operation) {
+    switch (operator) {
         case '+':
             result = add(num1,num2);
             break;
