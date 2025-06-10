@@ -17,7 +17,7 @@ main {
 
 .calc {
     width: 400px;
-    height: 600px;
+    height: 700px;
     background-color: beige;
     border: 1px solid black;
     border-radius: 15px;
@@ -41,7 +41,7 @@ main {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 45px;
+    gap: 44px;
 }
 
 .num, .operator {
