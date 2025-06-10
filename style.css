@@ -32,6 +32,8 @@ main {
 .screen {
     width: 350px;
     height: 60px;
+    font-size: 24px;
+    padding: 5px;
 }
 
 .container {
@@ -44,7 +46,7 @@ main {
     gap: 44px;
 }
 
-.num, .operator {
+.num, .operator, .result, .reset, .delete {
     border: 1px solid black;
     border-radius: 50%;
     width: 50px;
@@ -52,4 +54,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+div:hover {
+    cursor: pointer;
 }
